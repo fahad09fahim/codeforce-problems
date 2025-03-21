@@ -6,9 +6,8 @@ using namespace std;
 
 int main(){
     cout << fixed << setprecision(9);
-
     double r;
     cin >> r;
-    cout << "Area = " << PI * r * r << endl;
+    cout << PI * r * r << endl;
     return 0;
 }
